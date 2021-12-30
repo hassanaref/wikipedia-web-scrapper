@@ -3,7 +3,7 @@ const axios = require('axios');
 const express = require('express');
 const app = express();
 
-const url = 'https://en.wikipedia.org/wiki/Landing_page'
+const url = 'https://en.wikipedia.org/wiki/Jamiroquai'
 
 axios(url)
     .then(response => {
